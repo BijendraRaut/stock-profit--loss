@@ -21,28 +21,48 @@ main {
     height: 100vh;
 }
 
-
-
 .stock-input {
     width: 50%;
-    box-sizing: border-box;
-    margin: auto;
+    background-color: var(--black-800);
+    padding-top: 20vh;
+    text-align: center;
+}
 
+h2{
+    margin-bottom: 2rem;
+    color: var(--primary-color);
 }
 
 input {
-    background-color: var(--black-800);
-    border-radius: 0.3rem;
-    width: 45%;
-    height: 5vh;
+    background-color: var(--black-900);
+    border-radius: 0.2rem;
+    width: 20rem;
     display: block;
     margin: 1rem auto;
+    padding: 1.5rem;
+    border: none;
+    outline: none;
+    color: var(--primary-color);
 }
 
 .stock-output {
     width: 50%;
+    padding-top: 20vh;
+    background-color: var(--black-900);
+    color: white;
 }
 
 button {
-    text-align: center;
+ width: 20rem;
+ color: var(--primary-color);
+ padding: 1.2rem;
+ background-color: var(--blue-600);
+ border: none;
+ margin-top: 1rem;
+ text-transform: uppercase;
+ cursor: pointer;
+}
+
+.output-message {
+    padding: 1.5rem;
 }
