@@ -1,0 +1,48 @@
+
+:root {
+    --primary-color: #f3f3f3;
+    --black-900: #1e2025;
+    --blue-600: #2563eb;
+    --black-800: #22252a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--primary-color);
+}
+
+main {
+    display: flex;
+    height: 100vh;
+}
+
+
+
+.stock-input {
+    width: 50%;
+    box-sizing: border-box;
+    margin: auto;
+
+}
+
+input {
+    background-color: var(--black-800);
+    border-radius: 0.3rem;
+    width: 45%;
+    height: 5vh;
+    display: block;
+    margin: 1rem auto;
+}
+
+.stock-output {
+    width: 50%;
+}
+
+button {
+    text-align: center;
+}
