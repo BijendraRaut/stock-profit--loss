@@ -47,7 +47,7 @@ input {
 
 .stock-output {
     width: 50%;
-    padding-top: 20vh;
+    padding-top: 30vh;
     background-color: var(--black-900);
     color: white;
 }
